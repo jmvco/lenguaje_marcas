@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<series>
+    <serie id = 'S1'>
+        <titulo>Breaking Bad</titulo>
+        <genero>Drama</genero>
+        <temporadas>5</temporadas>
+        <anio>2008</anio>
+        <valoracion>9.1</valoracion>
+    </serie>
+    <serie id = 'S2'>
+        <titulo>Juegos de trono</titulo>
+        <genero>Fantasia</genero>
+        <temporadas>8</temporadas>
+        <anio>2011</anio>
+        <valoracion>8.5</valoracion>
+    </serie>
+    <serie id = 'S3'>
+        <titulo>Stranger Things</titulo>
+        <genero>Ciencia Ficcion</genero>
+        <temporadas>5</temporadas>
+        <anio>2016</anio>
+        <valoracion>7.9</valoracion>
+    </serie>
+    <serie id = 'S4'>
+        <titulo>The Walking Dead</titulo>
+        <genero>Terror</genero>
+        <temporadas>11</temporadas>
+        <anio>2010</anio>
+        <valoracion>7.2</valoracion>
+    </serie>
+</series>

@@ -1,0 +1,1 @@
+for $serie in /series/serie/titulo/text()

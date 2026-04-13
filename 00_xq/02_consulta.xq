@@ -1,0 +1,1 @@
+/personas/persona/nombre/text()
