@@ -1,0 +1,93 @@
+<calculos>
+  <registro>
+    <iterador>3</iterador>
+    <id>18</id>
+    <tanque>R9.</tanque>
+    <qr>103_not</qr>
+    <medicion clave="media" valor="585"/>
+  </registro>
+  <registro>
+    <iterador>11</iterador>
+    <id>51</id>
+    <tanque>R8.</tanque>
+    <qr>421_not</qr>
+    <medicion clave="media" valor="590"/>
+  </registro>
+  <registro>
+    <iterador>19</iterador>
+    <id>91</id>
+    <tanque>R7.</tanque>
+    <qr>811_not</qr>
+    <medicion clave="media" valor="590"/>
+  </registro>
+  <registro>
+    <iterador>5</iterador>
+    <id>26</id>
+    <tanque>R7.</tanque>
+    <qr>188_not</qr>
+    <medicion clave="media" valor="591"/>
+  </registro>
+  <registro>
+    <iterador>4</iterador>
+    <id>21</id>
+    <tanque>R8.</tanque>
+    <qr>5_145</qr>
+    <medicion clave="media" valor="595"/>
+  </registro>
+  <registro>
+    <iterador>6</iterador>
+    <id>31</id>
+    <tanque>R9.</tanque>
+    <qr>214_not</qr>
+    <medicion clave="media" valor="598"/>
+  </registro>
+  <registro>
+    <iterador>15</iterador>
+    <id>69</id>
+    <tanque>R9.</tanque>
+    <qr>603_not</qr>
+    <medicion clave="media" valor="600"/>
+  </registro>
+  <registro>
+    <iterador>2</iterador>
+    <id>12</id>
+    <tanque>R12.</tanque>
+    <qr>78_not</qr>
+    <medicion clave="media" valor="602"/>
+  </registro>
+  <registro>
+    <iterador>20</iterador>
+    <id>97</id>
+    <tanque>R8.</tanque>
+    <qr>5_905</qr>
+    <medicion clave="media" valor="603"/>
+  </registro>
+  <registro>
+    <iterador>18</iterador>
+    <id>84</id>
+    <tanque>R9.</tanque>
+    <qr>5_756</qr>
+    <medicion clave="media" valor="604"/>
+  </registro>
+  <registro>
+    <iterador>17</iterador>
+    <id>78</id>
+    <tanque>R8.</tanque>
+    <qr>702_not</qr>
+    <medicion clave="media" valor="605"/>
+  </registro>
+  <registro>
+    <iterador>14</iterador>
+    <id>64</id>
+    <tanque>R8.</tanque>
+    <qr>5_548</qr>
+    <medicion clave="media" valor="608"/>
+  </registro>
+  <registro>
+    <iterador>10</iterador>
+    <id>47</id>
+    <tanque>R7.</tanque>
+    <qr>392_not</qr>
+    <medicion clave="media" valor="611"/>
+  </registro>
+</calculos>
