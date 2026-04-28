@@ -6,8 +6,51 @@ declare option output:indent "yes";
 <html>
   <head>
     <title>Mi super proyecto final de peces</title>
+      <style>
+      .contenedor
+      {{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }}
+      body 
+      {{ 
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        background-image: linear-gradient(
+          rgba(0, 0, 0, 0.59),
+            rgba( 0, 0, 0, 0.4 )
+        ), url("/image/messi_es_mejor.png");
+        background-size: cover;
+      }}
+      h1 
+      {{
+        color: navy;
+        text-align: left;
+      }}
+      table
+      {{
+        border-collapse: collapse;
+        width: 700px;
+      }}
+      th,td
+      {{
+        border: 1px solid black;
+        padding: 8px;
+        text-align: left;
+      }}
+      th
+      {{
+        background-color: lightgrey;
+      }}
+      tr:nth-child(even) 
+      {{
+        background-color: #f2f2f2;
+      }}
+    </style>
   </head>
   <body>
+    <div class="contenedor">
     <h1>Mi listado de peces</h1>
     <table>
       <tr>
@@ -47,5 +90,6 @@ return
   </tr>
 }
     </table>
+    </div>
   </body>
 </html>

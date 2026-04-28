@@ -25,25 +25,25 @@ let $qr := string($registro/qr)
 let $mida := string($registro/mida)
 let $tanqueNew :=
 
-    if ($tanque != "") then substring($tanque, 1, 3)
+    if ( $tanque != "" ) then substring($tanque, 1, 3)
     else if ($tanque = "") then "R12."
     else ""
 
 let $qrNew :=
-    if (contains($qr, "5")) then concat("5_", $qr)
-    else if (not(contains($qr, "5"))) then concat($qr, "_not")
+    if ( contains( $qr, "5" ) ) then concat( "5_", $qr )
+    else if ( not( contains( $qr, "5" ) ) ) then concat( $qr, "_not" )
     else ""
 
-where xs:integer($mida) <= 615
+where xs:integer( $mida ) <= 615
 order by $mida
 return
 
   <tr>
-    <td>{ $indice}</td>
-    <td>{ $id}</td>
-    <td>{ $tanqueNew}</td>
-    <td>{ $qrNew}</td>
-    <td>{ $mida}</td>
+    <td>{ $indice }</td>
+    <td>{ $id }</td>
+    <td>{ $tanqueNew }</td>
+    <td>{ $qrNew }</td>
+    <td>{ $mida }</td>
   </tr>
 }
     </table>
