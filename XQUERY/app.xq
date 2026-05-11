@@ -6,6 +6,12 @@ declare option output:indent "yes";
 <html>
   <head>
     <title>Mi super proyecto final de peces</title>
+    <style>
+    body
+    {{
+      fnt-family: Arial, sans-serif;
+    }}
+    </style>
   </head>
   <body>
     <h1>Mi listado de peces</h1>
